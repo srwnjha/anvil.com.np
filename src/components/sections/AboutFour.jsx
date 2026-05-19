@@ -16,7 +16,7 @@ const AboutFour = ({ className = "" }) => {
           <div className="col-lg-5 mb-35 mb-lg-0">
             <div className="img-box6">
               <div className="img1">
-                <img src="assets/img/normal/about_4_1.jpg" alt="About" />
+                <img src="assets/img/normal/Group-46.webp" alt="About" />
               </div>
             </div>
           </div>

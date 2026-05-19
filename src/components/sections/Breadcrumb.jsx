@@ -5,7 +5,15 @@ const Breadcrumb = ({ className = "", title = "", subtitle = "" }) => {
   return (
     <div
       className={`breadcumb-wrapper ${className}`}
-      data-bg-src={process.env.PUBLIC_URL + "/assets/img/bg/aboutusbg.webp"}
+      style={{
+        width: "100%",
+        maxWidth: "1920px",
+        height: "752px",
+        backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg/aboutusbg.webp)`,
+        backgroundSize: "contain",
+        backgroundPosition: "top",
+        backgroundRepeat: "no-repeat",
+      }}
     >
       <div className="container">
         <div className="breadcumb-content">
