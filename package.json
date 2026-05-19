@@ -1,0 +1,61 @@
+{
+  "name": "tronix-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "fslightbox-react": "^2.0.2",
+    "imagesloaded": "^5.0.0",
+    "matter-js": "^0.20.0",
+    "react": "^18.2.0",
+    "react-burger-menu": "^3.1.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.15.1",
+    "react-modal": "^3.16.3",
+    "react-router-dom": "^7.2.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.10.0",
+    "sass": "^1.97.2",
+    "swiper": "^11.2.10",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "concurrently \"npm:react\" \"npm:sass:watch\"",
+    "react": "cross-env WATCHPACK_POLLING=true FAST_REFRESH=true react-scripts start",
+    "build": "npm run sass:build && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "sass:watch": "sass src/assets/sass/style.scss src/assets/css/style.css --watch",
+    "sass:build": "sass src/assets/sass/style.scss src/assets/css/style.css --style=compressed",
+    "dev": "react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-unused-vars": "warn"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0"
+  }
+}

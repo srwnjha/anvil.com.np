@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "img": "assets/img/blog/blog_1_1.jpg",
+      "date": "December 26, 2025",
+      "title": "How to Build a Strong Cybe rsecurity Culture"
+    },
+    {
+      "id": 2,
+      "img": "assets/img/blog/blog_1_2.jpg",
+      "date": "March 05, 2025",
+      "title": "Breaking Down the Latest Cyber Threats"
+    },
+    {
+      "id": 3,
+      "img": "assets/img/blog/blog_1_3.jpg",
+      "date": "April 04, 2025",
+      "title": "The Importance of Regular Tronixity Audits"
+    }
+  ]
+  
