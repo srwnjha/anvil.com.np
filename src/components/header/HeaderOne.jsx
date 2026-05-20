@@ -54,7 +54,7 @@ const Header = () => {
                       <img
                         src={
                           process.env.PUBLIC_URL +
-                          "/assets/img/anvil/anvilogo.png"
+                          "/assets/img/anvil/anvilfooter.png"
                         }
                         alt="Tronix"
                         style={{
