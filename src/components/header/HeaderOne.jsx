@@ -1,8 +1,7 @@
-
-import { Link } from 'react-router-dom';
-import HeaderPopupSearch from './HeaderPopupSearch';
-import MainMenu from './MainMenu';
-import MobileMenu from './MobileMenu';
+import { Link } from "react-router-dom";
+import HeaderPopupSearch from "./HeaderPopupSearch";
+import MainMenu from "./MainMenu";
+import MobileMenu from "./MobileMenu";
 
 const Header = () => {
   return (
@@ -22,9 +21,15 @@ const Header = () => {
                     <li className="d-none d-sm-inline-block">
                       <div className="links-menu">
                         <ul>
-                          <li><Link to="/service">All Services</Link></li>
-                          <li><Link to="/about">Careers</Link></li>
-                          <li><Link to="/blog">News</Link></li>
+                          <li>
+                            <Link to="/service">All Services</Link>
+                          </li>
+                          <li>
+                            <Link to="/about">Careers</Link>
+                          </li>
+                          <li>
+                            <Link to="/blog">News</Link>
+                          </li>
                         </ul>
                       </div>
                     </li>
@@ -45,7 +50,19 @@ const Header = () => {
               <div className="row align-items-center justify-content-between">
                 <div className="col-auto">
                   <div className="header-logo">
-                    <Link to="/"><img src={process.env.PUBLIC_URL + "/assets/img/logo.svg"} alt="Tronix" /></Link>
+                    <Link to="/">
+                      <img
+                        src={
+                          process.env.PUBLIC_URL +
+                          "/assets/img/anvil/anvilogo.png"
+                        }
+                        alt="Tronix"
+                        style={{
+                          width: "190px",
+                          height: "auto",
+                        }}
+                      />
+                    </Link>
                   </div>
                 </div>
 
@@ -53,7 +70,10 @@ const Header = () => {
                   <nav className="main-menu d-none d-lg-inline-block">
                     <MainMenu />
                   </nav>
-                  <button type="button" className="ot-menu-toggle d-block d-lg-none">
+                  <button
+                    type="button"
+                    className="ot-menu-toggle d-block d-lg-none"
+                  >
                     <i className="far fa-bars"></i>
                   </button>
                 </div>
@@ -71,10 +91,11 @@ const Header = () => {
                         </h4>
                       </div>
                     </div>
-                    <Link to="/contact" className="ot-btn btn-sm">Get Started</Link>
+                    <Link to="/contact" className="ot-btn btn-sm">
+                      Get Started
+                    </Link>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
