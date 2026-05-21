@@ -37,18 +37,35 @@
 
 .hero-1 {
   background-color: $white-color;
+  // .hero-circle {
+  //   position: absolute;
+  //   width: 1203px;
+  //   height: 1202px;
+  //   left: -228px;
+  //   top: -500px;
+  //   background: radial-gradient(
+  //     50% 50% at 50% 50%,
+  //     #0e59f2 0%,
+  //     rgba(14, 89, 242, 0) 100%
+  //   );
+  //   filter: blur(750px);
+  // }
   .hero-circle {
     position: absolute;
     width: 1203px;
     height: 1202px;
     left: -228px;
     top: -500px;
+
     background: radial-gradient(
-      50% 50% at 50% 50%,
-      #0e59f2 0%,
-      rgba(14, 89, 242, 0) 100%
+      circle at 40% 30%,
+      rgba(14, 89, 242, 0.38) 0%,
+      transparent 60%
     );
-    filter: blur(750px);
+
+    filter: blur(680px);
+    opacity: 0.72;
+    mix-blend-mode: screen;
   }
   .hero-shape1 {
     position: absolute;
