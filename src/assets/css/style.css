@@ -3150,7 +3150,7 @@ a.text-theme:hover,
   color: var(--theme-color);
 }
 .main-menu > ul > li {
-  margin: 0 16px;
+  margin: 0 20px;
 }
 .main-menu > ul > li > a {
   padding: 39px 0;
@@ -3167,7 +3167,7 @@ a.text-theme:hover,
   display: inline-block;
   position: relative;
 }
-.main-menu ul li.menu-item-has-children > a:after {
+/* .main-menu ul li.menu-item-has-children > a:after {
   content: "";
   display: inline-block;
   position: relative;
@@ -3178,7 +3178,7 @@ a.text-theme:hover,
   font-size: 0.9em;
   color: var(--theme-color);
   transition: 0.3s ease-in-out;
-}
+} */
 .main-menu ul li.menu-item-has-children > a:hover:after {
   transform: rotate(180deg);
 }
