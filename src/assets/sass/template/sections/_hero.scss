@@ -34,7 +34,14 @@
 .hero-text {
   margin-bottom: 42px;
 }
+.ot-hero-wrapper.hero-1 {
+  background: linear-gradient(135deg, #f8fbff 0%, #e6f0ff 100%) !important;
+}
 
+.ot-hero-wrapper.hero-1 .hero-inner {
+  position: relative;
+  z-index: 2;
+}
 .hero-1 {
   background-color: $white-color;
   // .hero-circle {
