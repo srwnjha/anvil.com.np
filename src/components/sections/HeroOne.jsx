@@ -17,7 +17,9 @@ const Hero = () => {
             </span>
             <h1 className="hero-title">
               <span className="title1">Clear Thinking</span>
-              <span className="title2">Makes <span>Bright Future!</span></span>
+              <span className="title2">
+                Makes <span>Bright Future!</span>
+              </span>
             </h1>
             <p className="hero-text">
               The website design should be user-friendly, easy to navigate, and
@@ -25,9 +27,12 @@ const Hero = () => {
               times, and the layout should be consistent across all pages.
             </p>
             <div className="btn-group">
-              <Link to="/about" className="ot-btn">Discover More</Link>
-              
-              <button type="button"
+              <Link to="/about" className="ot-btn">
+                Discover More
+              </Link>
+
+              <button
+                type="button"
                 className="watch-btn"
                 onClick={(e) => {
                   e.preventDefault();
@@ -48,7 +53,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-img">
-          <img src={process.env.PUBLIC_URL + "/assets/img/hero/hero_1_1.jpg"} alt="Hero" />
+          <img
+            src={process.env.PUBLIC_URL + "/assets/img/hero/hero_1_1.jpg"}
+            alt="Hero"
+          />
         </div>
       </div>
     </div>
