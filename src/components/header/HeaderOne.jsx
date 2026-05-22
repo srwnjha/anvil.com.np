@@ -35,7 +35,7 @@ const Header = () => {
                     </li>
                     <li>
                       <i className="far fa-envelope"></i>
-                      <a href="mailto:media@tronix.com">media@tronix.com</a>
+                      <a href="mailto:info@anvil.com.np">info@anvil.com.np</a>
                     </li>
                   </ul>
                 </div>
@@ -87,7 +87,7 @@ const Header = () => {
                       <div className="media-body">
                         <span className="box-subtitle">Quick Call</span>
                         <h4 className="box-title">
-                          <a href="tel:+9041236625">(904) 12-366-25</a>
+                          <a href="tel:+9705236388">(970) 52-363-88</a>
                         </h4>
                       </div>
                     </div>

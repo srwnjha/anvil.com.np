@@ -3167,18 +3167,18 @@ a.text-theme:hover,
   display: inline-block;
   position: relative;
 }
-/* .main-menu ul li.menu-item-has-children > a:after {
-  content: "";
+.main-menu ul li.menu-item-has-children > a:after {
+  content: "▼";
   display: inline-block;
   position: relative;
   font-family: var(--icon-font);
   margin-left: 4px;
   font-weight: 600;
   top: 0;
-  font-size: 0.9em;
+  font-size: 0.6em;
   color: var(--theme-color);
   transition: 0.3s ease-in-out;
-} */
+}
 .main-menu ul li.menu-item-has-children > a:hover:after {
   transform: rotate(180deg);
 }

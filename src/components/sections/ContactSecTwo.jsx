@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const ContactSecTwo = ({ className = "space overflow-hidden" }) => {
   return (
@@ -35,7 +35,8 @@ const ContactSecTwo = ({ className = "space overflow-hidden" }) => {
                   Phone: <a href="tel:+1655778749">+165-5577-8749</a>
                 </p>
                 <p className="box-text">
-                  Email: <a href="mailto:info@tronix.com">info@tronix.com</a>
+                  Email:{" "}
+                  <a href="mailto:info@anvil.com.np">info@anvil.com.np</a>
                 </p>
               </div>
             </div>

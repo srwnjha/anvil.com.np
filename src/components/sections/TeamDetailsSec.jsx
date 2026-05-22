@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const TeamDetailsSec = ({ className = "space" }) => {
   return (
@@ -11,14 +11,47 @@ const TeamDetailsSec = ({ className = "space" }) => {
           <div className="about-card box-content">
             <h2 className="about-card_title page-title">Milano Digits</h2>
             <p className="about-card_desig page-desig">Network Engineer</p>
-            <p className="about-card_text page-content">Milano is a certified network engineer with over 10 years of experience in designing and deploying network solutions</p>
+            <p className="about-card_text page-content">
+              Milano is a certified network engineer with over 10 years of
+              experience in designing and deploying network solutions
+            </p>
 
             <div className="ot-social mb-3">
-              <a target="_blank" href="https://facebook.com/" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
-              <a target="_blank" href="https://twitter.com/" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
-              <a target="_blank" href="https://instagram.com/" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-              <a target="_blank" href="https://linkedin.com/" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
-              <a target="_blank" href="https://pinterest.com/" rel="noopener noreferrer"><i className="fab fa-pinterest-p"></i></a>
+              <a
+                target="_blank"
+                href="https://facebook.com/"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a
+                target="_blank"
+                href="https://twitter.com/"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a
+                target="_blank"
+                href="https://instagram.com/"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-instagram"></i>
+              </a>
+              <a
+                target="_blank"
+                href="https://linkedin.com/"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                target="_blank"
+                href="https://pinterest.com/"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-pinterest-p"></i>
+              </a>
             </div>
 
             <div className="team-info-wrap">
@@ -37,7 +70,9 @@ const TeamDetailsSec = ({ className = "space" }) => {
                 </div>
                 <div className="media-body">
                   <p className="box-text">Phone</p>
-                  <h3 className="box-title"><a href="tel:+2562145821456">+(256) 21458-21456</a></h3>
+                  <h3 className="box-title">
+                    <a href="tel:+2562145821456">+(256) 21458-21456</a>
+                  </h3>
                 </div>
               </div>
               <div className="team-info">
@@ -46,7 +81,9 @@ const TeamDetailsSec = ({ className = "space" }) => {
                 </div>
                 <div className="media-body">
                   <p className="box-text">Email</p>
-                  <h3 className="box-title"><a href="mailto:info@tronix.com">info@tronix.com</a></h3>
+                  <h3 className="box-title">
+                    <a href="mailto:info@anvil.com.np">info@anvil.com.np</a>
+                  </h3>
                 </div>
               </div>
               <div className="team-info">
@@ -55,7 +92,9 @@ const TeamDetailsSec = ({ className = "space" }) => {
                 </div>
                 <div className="media-body">
                   <p className="box-text">Fax</p>
-                  <h3 className="box-title"><a href="fax:+2568145632">+2568145632</a></h3>
+                  <h3 className="box-title">
+                    <a href="fax:+2568145632">+2568145632</a>
+                  </h3>
                 </div>
               </div>
             </div>
@@ -63,8 +102,20 @@ const TeamDetailsSec = ({ className = "space" }) => {
         </div>
 
         <h4 className="fw-semibold mb-20 pt-5 mt-xl-4">About Milano Digits</h4>
-        <p className="mb-4">Milano is a certified network engineer with over 10 years of experience in designing and deploying network solutions. She specializes in configuring and optimizing network devices and protocols to ensure maximum performance and security. Jane has extensive experience working with Cisco and Juniper network devices and is always up-to-date with the latest networking technologies.</p>
-        <p className="mb-n2">Our team has the skills and expertise to provide comprehensive and effective IT solutions for small businesses. We are committed to delivering high-quality services and building long-term partnerships with our clients.</p>
+        <p className="mb-4">
+          Milano is a certified network engineer with over 10 years of
+          experience in designing and deploying network solutions. She
+          specializes in configuring and optimizing network devices and
+          protocols to ensure maximum performance and security. Jane has
+          extensive experience working with Cisco and Juniper network devices
+          and is always up-to-date with the latest networking technologies.
+        </p>
+        <p className="mb-n2">
+          Our team has the skills and expertise to provide comprehensive and
+          effective IT solutions for small businesses. We are committed to
+          delivering high-quality services and building long-term partnerships
+          with our clients.
+        </p>
       </div>
     </section>
   );

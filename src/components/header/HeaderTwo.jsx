@@ -1,9 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import MainMenu from './MainMenu';
-import MobileMenu from './MobileMenu';
-import HeaderSidemenu from './HeaderSidemenu'; 
-import logo from '../../assets/img/logo.svg';
+import React from "react";
+import { Link } from "react-router-dom";
+import MainMenu from "./MainMenu";
+import MobileMenu from "./MobileMenu";
+import HeaderSidemenu from "./HeaderSidemenu";
+import logo from "../../assets/img/logo.svg";
 
 const HeaderTwo = () => {
   return (
@@ -23,7 +23,8 @@ const HeaderTwo = () => {
                     </li>
                     <li>
                       <i className="far fa-envelope"></i>
-                      Mail Us: <a href="mailto:info@tronix.com">info@tronix.com</a>
+                      Mail Us:{" "}
+                      <a href="mailto:info@anvil.com.np">info@anvil.com.np</a>
                     </li>
                     <li>
                       <i className="far fa-clock"></i>
@@ -35,11 +36,21 @@ const HeaderTwo = () => {
               <div className="col-auto">
                 <div className="social-links">
                   <span className="social-title">Follow Us On : </span>
-                  <a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a>
-                  <a href="https://www.twitter.com/"><i className="fab fa-twitter"></i></a>
-                  <a href="https://www.linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
-                  <a href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a>
-                  <a href="https://www.youtube.com/"><i className="fab fa-youtube"></i></a>
+                  <a href="https://www.facebook.com/">
+                    <i className="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="https://www.twitter.com/">
+                    <i className="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/">
+                    <i className="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://www.instagram.com/">
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://www.youtube.com/">
+                    <i className="fab fa-youtube"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -61,13 +72,18 @@ const HeaderTwo = () => {
                   <nav className="main-menu d-none d-lg-inline-block">
                     <MainMenu />
                   </nav>
-                  <button type="button" className="ot-menu-toggle d-block d-lg-none">
+                  <button
+                    type="button"
+                    className="ot-menu-toggle d-block d-lg-none"
+                  >
                     <i className="far fa-bars"></i>
                   </button>
                 </div>
                 <div className="col-auto d-none d-lg-block">
                   <div className="header-button">
-                    <Link to="/contact" className="ot-btn btn-sm">Get Started</Link>
+                    <Link to="/contact" className="ot-btn btn-sm">
+                      Get Started
+                    </Link>
                     <button type="button" className="icon-btn sideMenuInfo">
                       <i className="far fa-bars"></i>
                     </button>
