@@ -57,7 +57,7 @@ const AboutSecThree = ({ className = "" }) => {
                 <h2 className="sec-title text-white">
                   We provide perfect it solutions & technology for any startups.
                 </h2>
-                <p className="sec-text">
+                <p className="sec-text text-white">
                   An IT solution service company may serve clients from various
                   industries such as healthcare, finance, education, and
                   manufacturing. They may work on a project basis, providing
@@ -69,7 +69,7 @@ const AboutSecThree = ({ className = "" }) => {
                   <div className="box-icon">
                     <img src="assets/img/icon/about_feature_1.svg" alt="icon" />
                   </div>
-                  <h3 className="box-title">
+                  <h3 className="box-title text-white">
                     Provide Skills <br /> Services
                   </h3>
                 </div>
@@ -77,7 +77,7 @@ const AboutSecThree = ({ className = "" }) => {
                   <div className="box-icon">
                     <img src="assets/img/icon/about_feature_2.svg" alt="icon" />
                   </div>
-                  <h3 className="box-title">
+                  <h3 className="box-title text-white">
                     Urgent Support <br /> For Clients
                   </h3>
                 </div>
