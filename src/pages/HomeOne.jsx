@@ -33,8 +33,8 @@ const HomeOne = () => {
       <Header />
       <div className="home-page">
         <Hero />
-        <ProcessSecOne className="space" />
         <AboutSecThree className="space" />
+        <ProcessSecOne className="space" />
         <ServiceSecThree className="space" />
         <WhySecThree className="space" />
         <ProcessSecTwo className="space-extra-top space" />

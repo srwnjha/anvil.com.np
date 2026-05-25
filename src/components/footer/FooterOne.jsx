@@ -164,7 +164,7 @@ const Footer = () => {
                 <div className="media-body">
                   <h4 className="box-title">Location</h4>
                   <p className="box-text">
-                    258 Daniel Mansion 258 Berlin Germany
+                    Gangalal Marg, Kathmandu-19, Nepal{" "}
                   </p>
                 </div>
               </div>
@@ -194,7 +194,7 @@ const Footer = () => {
                   <h4 className="box-title">Contact Us</h4>
                   <p className="box-text">
                     <span>info@anvil.com.np</span> <br />
-                    <span>(+259) 2257 6156</span>
+                    <span>(970) 52-363-88</span>
                   </p>
                 </div>
               </div>
