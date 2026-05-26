@@ -12,8 +12,24 @@ const Footer = () => {
     <>
       <footer
         className="footer-wrapper footer-layout1"
-        data-bg-src="assets/img/bg/footer_bg_1.jpg"
+        // data-bg-src="assets/img/bg/B.jpg"
+        style={{
+          backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg/footer.webp)`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          position: "relative",
+          padding: "100px 0",
+        }}
       >
+        {/* Dark Overlay - Reduced opacity for brighter image */}
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background: "rgba(0, 0, 0, 0.1)", // Reduced from 0.6 → 0.45
+            zIndex: 1,
+          }}
+        />
         <div className="widget-area">
           <div className="container">
             <div className="row justify-content-between">
@@ -206,7 +222,7 @@ const Footer = () => {
           <div className="container text-center">
             <p className="copyright-text">
               Copyright <i className="fal fa-copyright"></i> 2026{" "}
-              <Link to="/">Tronix</Link>. All Rights Reserved.
+              <Link to="/">Anvil Technologies</Link>. All Rights Reserved.
             </p>
           </div>
         </div>

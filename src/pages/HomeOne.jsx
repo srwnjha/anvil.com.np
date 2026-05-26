@@ -9,11 +9,11 @@ import ServiceSecThree from "../components/sections/ServiceSecThree";
 import WhySecThree from "../components/sections/WhySecThree";
 import ProcessSecTwo from "../components/sections/ProcessSecTwo";
 import CtaSecOne from "../components/sections/CtaSecOne";
-import TeamSecThree from "../components/sections/TeamSecThree";
-import TestiSecThree from "../components/sections/TestiSecThree";
-import CaseSecOne from "../components/sections/CaseSecOne";
+// import TeamSecThree from "../components/sections/TeamSecThree";
+// import TestiSecThree from "../components/sections/TestiSecThree";
+// import CaseSecOne from "../components/sections/CaseSecOne";
 import BlogSecTwo from "../components/sections/BlogSecTwo";
-import SubscribeSecOne from "../components/sections/SubscribeSecOne";
+// import SubscribeSecOne from "../components/sections/SubscribeSecOne";
 // import ServiceSecOne from "../components/sections/ServiceSecOne";
 // import BrandOne from "../components/sections/BrandOne";
 // import AboutOne from "../components/sections/AboutOne";
@@ -39,11 +39,11 @@ const HomeOne = () => {
         <WhySecThree className="space" />
         <ProcessSecTwo className="space-extra-top space" />
         <CtaSecOne className="space" />
-        <TeamSecThree className="space" />
-        <TestiSecThree className="space" />
-        <CaseSecOne className="space-top" />
+        {/* <TeamSecThree className="space" /> */}
+        {/* <TestiSecThree className="space" /> */}
+        {/* <CaseSecOne className="space-top" /> */}
         <BlogSecTwo className="space" />
-        <SubscribeSecOne className="space-bottom" />
+        {/* <SubscribeSecOne className="space-bottom" /> */}
         {/* <ServiceSecOne className="service-sec1" />
         <AboutOne className="space" />
         <CtaSecOne className="space" />

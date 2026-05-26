@@ -10,17 +10,24 @@ const AboutSecThree = ({ className = "" }) => {
     <div
       className={`bg-left-full ${className}`}
       id="about-sec"
-      data-bg-src="assets/img/bg/A.jpg"
+      data-bg-src="assets/img/anvil/moreabout.jpg"
+      // style={{
+      //   backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/anvil/moreabout.jpg)`,
+      //   backgroundSize: "cover",
+      //   backgroundPosition: "center",
+      //   position: "relative",
+      //   padding: "100px 0",
+      // }}
     >
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 mb-35 mb-lg-0">
             <div className="img-box4">
               <div className="img1">
-                <img src="assets/img/normal/about_3_1.jpg" alt="About" />
+                <img src="assets/img/anvil/moreabout1.jpg" alt="About" />
               </div>
               <div className="img2 jump">
-                <img src="assets/img/normal/about_3_2.jpg" alt="About" />
+                <img src="assets/img/anvil/moreabout2.jpg" alt="About" />
               </div>
               <div className="about-award">
                 <div className="box-content">
