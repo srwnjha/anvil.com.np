@@ -30,7 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "sass:watch": "sass src/assets/sass/style.scss src/assets/css/style.css --watch",
-    "sass:build": "sass src/assets/sass/style.scss src/assets/css/style.css --style=compressed --quiet-deps",
+    "sass:build": "sass src/assets/sass/style.scss src/assets/css/style.css --style=compressed",
     "dev": "react-scripts start"
   },
   "eslintConfig": {
