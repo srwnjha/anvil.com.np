@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const BlogComment = ({
   className = "",
@@ -35,31 +35,31 @@ const BlogComment = ({
   onReply = (commentId) => {},
   onSubmit = (formData) => {},
 }) => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    website: "",
-    comment: "",
-  });
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   website: "",
+  //   comment: "",
+  // });
 
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
-  };
+  // const handleInputChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setFormData((prev) => ({
+  //     ...prev,
+  //     [name]: value,
+  //   }));
+  // };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    onSubmit(formData);
-    setFormData({
-      name: "",
-      email: "",
-      website: "",
-      comment: "",
-    });
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   onSubmit(formData);
+  //   setFormData({
+  //     name: "",
+  //     email: "",
+  //     website: "",
+  //     comment: "",
+  //   });
+  // };
 
   const CommentItem = ({ comment, isReply = false }) => (
     <li className={`ot-comment-item ${isReply ? "" : ""}`}>
@@ -98,17 +98,17 @@ const BlogComment = ({
   return (
     <>
       {/* Comments Section */}
-      <div className={`ot-comments-wrap ${className}`}>
+      {/* <div className={`ot-comments-wrap ${className}`}>
         <h2 className="blog-inner-title h4">Comments ({commentCount})</h2>
         <ul className="comment-list">
           {comments.map((comment) => (
             <CommentItem key={comment.id} comment={comment} />
           ))}
         </ul>
-      </div>
+      </div> */}
 
       {/* Comment Form Section */}
-      {showCommentForm && (
+      {/* {showCommentForm && (
         <div className={`ot-comment-form ${className}`}>
           <div className="form-title">
             <h3 className="blog-inner-title h4 mb-2">{formTitle}</h3>
@@ -170,7 +170,7 @@ const BlogComment = ({
             </div>
           </form>
         </div>
-      )}
+      )} */}
     </>
   );
 };
