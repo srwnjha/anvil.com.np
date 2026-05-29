@@ -9,9 +9,9 @@ const blogPosts = [
       "Discover the essential IT solutions that can help small businesses and startups scale efficiently and securely.",
     author: "Anvil",
     date: "21 Jun, 2025",
-    smallimage: "assets/img/blog/recent-post-1-1.jpg",
-    image: "assets/img/blog/blog_1_1.jpg",
-    detailImage: "assets/img/blog/blog-s-1-1.jpg",
+    smallimage: "assets/img/blog/Blog1c.jpeg",
+    image: "assets/img/blog/Blog1b.jpeg",
+    detailImage: "assets/img/blog/Blog1a.jpeg",
     content: {
       intro:
         "One of the primary benefits of managed IT services is cost savings. Small businesses typically have limited budgets and resources to dedicate to IT infrastructure and support. By working with a managed IT services provider, small businesses can leverage the provider's economies of scale to access enterprise-level IT solutions at a fraction of the cost of building and maintaining an in-house IT team.",
