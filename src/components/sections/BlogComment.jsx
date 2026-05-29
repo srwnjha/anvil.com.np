@@ -98,17 +98,17 @@ const BlogComment = ({
   return (
     <>
       {/* Comments Section */}
-      {/* <div className={`ot-comments-wrap ${className}`}>
+      <div className={`ot-comments-wrap ${className}`}>
         <h2 className="blog-inner-title h4">Comments ({commentCount})</h2>
         <ul className="comment-list">
-          {comments.map(comment => (
+          {comments.map((comment) => (
             <CommentItem key={comment.id} comment={comment} />
           ))}
         </ul>
-      </div> */}
+      </div>
 
       {/* Comment Form Section */}
-      {/* {showCommentForm && (
+      {showCommentForm && (
         <div className={`ot-comment-form ${className}`}>
           <div className="form-title">
             <h3 className="blog-inner-title h4 mb-2">{formTitle}</h3>
@@ -170,7 +170,7 @@ const BlogComment = ({
             </div>
           </form>
         </div>
-      )} */}
+      )}
     </>
   );
 };
