@@ -7,7 +7,8 @@ const BlogBoxV2 = ({ className = "", limit = null }) => {
   const blogs = blogPosts.slice(0, 2).map((post, index) => ({
     title: post.title,
     slug: post.slug,
-    img: `assets/img/blog/blog_2_${index + 1}.jpg`,
+    // img: `assets/img/blog/blog_2_${index + 1}.jpg`,
+    img: post.detailImage,
     date: post.date,
     tag: post.category,
     comment: "2 Comments",

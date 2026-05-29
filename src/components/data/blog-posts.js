@@ -42,10 +42,7 @@ const blogPosts = [
     date: "26 Jul, 2025",
     image: "assets/img/blog/blog_1_2.jpg",
     smallimage: "assets/img/blog/recent-post-1-2.jpg",
-    detailImage: [
-      "assets/img/blog/blog-s-1-2.jpg",
-      "assets/img/blog/blog-s-1-4.jpg",
-    ],
+    detailImage: ["assets/img/blog/blog-s-1-2.jpg"],
     content: {
       intro:
         "Cloud computing has revolutionized the way businesses operate by providing scalable, cost-effective solutions for data storage, software applications, and computing power. Small businesses can now access enterprise-level technology without the need for significant upfront investments in hardware and infrastructure.",
