@@ -1,9 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import blogPosts from '../data/blog-posts';
+import React from "react";
+import { Link } from "react-router-dom";
+import blogPosts from "../data/blog-posts";
 
-const BlogBoxV2 = ({ className = '', limit = null }) => {
-
+const BlogBoxV2 = ({ className = "", limit = null }) => {
   // Get first two blog posts and use incrementing images (blog_2_1.jpg, blog_2_2.jpg)
   const blogs = blogPosts.slice(0, 2).map((post, index) => ({
     title: post.title,
@@ -11,7 +10,7 @@ const BlogBoxV2 = ({ className = '', limit = null }) => {
     img: `assets/img/blog/blog_2_${index + 1}.jpg`,
     date: post.date,
     tag: post.category,
-    comment: '2 Comments',
+    comment: "2 Comments",
     text: post.excerpt,
     category: post.category,
   }));
@@ -34,7 +33,7 @@ const BlogBoxV2 = ({ className = '', limit = null }) => {
                 </Link>
                 <Link className="author" to="/blog">
                   <i className="far fa-user"></i>
-                  By Tronix
+                  By ANVIL TECHNOLOGIES
                 </Link>
               </div>
               <h3 className="box-title">
