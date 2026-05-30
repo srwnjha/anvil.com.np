@@ -22,9 +22,10 @@ const Hero = () => {
               </span>
             </h1>
             <p className="hero-text">
-              The website design should be user-friendly, easy to navigate, and
-              aesthetically pleasing. It should be optimized for fast loading
-              times, and the layout should be consistent across all pages.
+              We build resilient, secure, and high-performance infrastructure
+              for the modern enterprise. From complex system integration to
+              ironclad security, we craft the digital foundations that drive
+              your business forward.
             </p>
             <div className="btn-group">
               <Link to="/about" className="ot-btn">
