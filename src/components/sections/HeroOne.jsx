@@ -54,8 +54,9 @@ const Hero = () => {
         </div>
         <div className="hero-img">
           <img
-            src={process.env.PUBLIC_URL + "/assets/img/hero/hero_1_1.jpg"}
+            src={process.env.PUBLIC_URL + "/assets/img/hero/forging.png"}
             alt="Hero"
+            style={{ width: "530px", height: "auto" }}
           />
         </div>
       </div>

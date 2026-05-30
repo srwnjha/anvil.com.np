@@ -114,9 +114,9 @@
     &:after {
       position: absolute;
       content: "";
-      top: -80px;
-      width: 580px;
-      height: 580px;
+      top: -20px;
+      width: 550px;
+      height: 550px;
       border: 2px solid $white-color;
       border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
       will-change: border-radius, transform, opacity;
