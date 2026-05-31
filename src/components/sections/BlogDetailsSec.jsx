@@ -100,12 +100,17 @@ const BlogDetailsSec = ({ post }) => {
                   <p>{post.content.mainContent}</p>
                   {post.content.quote && (
                     <blockquote>
-                      <i className="fal fa-quote-right icon-btn"></i>
+                      {/* Blue "Quote" Label */}
+                      <h3 className="text-primary fw-normal mb-2">Quote</h3>
+
+                      {/* Bold Main Quote */}
+                      <h3 className="fw-bold">Never Trust, Always Verify</h3>
+                      {/* <i className="fal fa-quote-right icon-btn"></i>
                       <p>{post.content.quote.text}</p>
                       <cite>{post.content.quote.author}</cite>
                       <span className="desig">
                         {post.content.quote.designation}
-                      </span>
+                      </span> */}
                     </blockquote>
                   )}
                   <p className="mb-40">{post.content.middleContent}</p>

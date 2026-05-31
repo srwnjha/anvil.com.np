@@ -10,24 +10,24 @@ const AboutSecThree = ({ className = "" }) => {
     <div
       className={`bg-left-full ${className}`}
       id="about-sec"
-      data-bg-src="assets/img/anvil/moreabout.jpg"
-      // style={{
-      //   backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/anvil/moreabout.jpg)`,
-      //   backgroundSize: "cover",
-      //   backgroundPosition: "center",
-      //   position: "relative",
-      //   padding: "100px 0",
-      // }}
+      // data-bg-src="assets/img/anvil/1bgabout.webp"
+      style={{
+        backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/anvil/1bgabout.webp)`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        position: "relative",
+        padding: "100px 0",
+      }}
     >
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 mb-35 mb-lg-0">
             <div className="img-box4">
               <div className="img1">
-                <img src="assets/img/anvil/moreabout1.jpg" alt="About" />
+                <img src="assets/img/anvil/moreabout1.png" alt="About" />
               </div>
               <div className="img2 jump">
-                <img src="assets/img/anvil/moreabout2.jpg" alt="About" />
+                <img src="assets/img/anvil/moreabout2.png" alt="About" />
               </div>
               <div className="about-award">
                 <div className="box-content">
@@ -57,14 +57,12 @@ const AboutSecThree = ({ className = "" }) => {
             <div className="ps-xxl-5 ms-xl-4 me-xxl-4">
               <div className="title-area mb-37">
                 <span className="sub-title">
-                  <span className="text text-white">
-                    More About Our Company
-                  </span>
+                  <span className="text">More About Our Company</span>
                 </span>
-                <h2 className="sec-title text-white">
+                <h2 className="sec-title">
                   We provide perfect it solutions & technology for any startups.
                 </h2>
-                <p className="sec-text text-white">
+                <p className="sec-text ">
                   An IT solution service company may serve clients from various
                   industries such as healthcare, finance, education, and
                   manufacturing. They may work on a project basis, providing
@@ -76,7 +74,7 @@ const AboutSecThree = ({ className = "" }) => {
                   <div className="box-icon">
                     <img src="assets/img/icon/about_feature_1.svg" alt="icon" />
                   </div>
-                  <h3 className="box-title text-white">
+                  <h3 className="box-title">
                     Provide Skills <br /> Services
                   </h3>
                 </div>
@@ -84,7 +82,7 @@ const AboutSecThree = ({ className = "" }) => {
                   <div className="box-icon">
                     <img src="assets/img/icon/about_feature_2.svg" alt="icon" />
                   </div>
-                  <h3 className="box-title text-white">
+                  <h3 className="box-title">
                     Urgent Support <br /> For Clients
                   </h3>
                 </div>
