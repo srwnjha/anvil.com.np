@@ -60,13 +60,15 @@ const AboutSecThree = ({ className = "" }) => {
                   <span className="text">More About Our Company</span>
                 </span>
                 <h2 className="sec-title">
-                  We provide perfect it solutions & technology for any startups.
+                  We Deliver Reliable IT Solutions & Technology Services for
+                  Businesses of All Sizes
                 </h2>
                 <p className="sec-text ">
-                  An IT solution service company may serve clients from various
-                  industries such as healthcare, finance, education, and
-                  manufacturing. They may work on a project basis, providing
-                  services for a specific project or on a long-term basis...
+                  As a trusted System Integrator and Service Provider, we help
+                  organizations modernize their IT infrastructure, strengthen
+                  security, and accelerate digital transformation. Our team
+                  delivers and-to-end-solutions tailored to your business needs,
+                  ensuring performance, reliability, and long-term success.
                 </p>
               </div>
               <div className="about-feature-wrap">
