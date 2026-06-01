@@ -4915,7 +4915,7 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
 }
 .hero-1 .hero-img {
   position: absolute;
-  top: 320px;
+  top: 250px;
   right: 13%;
   z-index: 2;
 }
