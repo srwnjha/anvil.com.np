@@ -1574,7 +1574,7 @@ textarea.is-invalid {
   display: none;
 }
 .box-title {
-  font-size: 24px;
+  font-size: 28px;
   line-height: 1.333;
   font-weight: 500;
   margin-top: -0.28em;
@@ -4857,7 +4857,7 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
 }
 .hero-title .title1 span,
 .hero-title .title2 span {
-  font-weight: 300;
+  font-weight: 500;
   color: var(--theme-color);
 }
 .hero-text {
@@ -4995,7 +4995,7 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
 .hero-style1 {
   position: relative;
   z-index: 6;
-  padding: 355px 0 195px 0;
+  padding: 300px 0 195px 0;
 }
 .hero-style1 .sub-title {
   margin-bottom: 33px;

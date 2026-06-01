@@ -7,8 +7,40 @@ const Hero = () => {
 
   return (
     <div className="ot-hero-wrapper hero-1" id="hero">
+      {/* Animation Keyframes */}
+      <style>
+        {`
+          @keyframes rotate {
+            from {
+              transform: translateY(-50%) rotate(0deg);
+            }
+            to {
+              transform: translateY(-50%) rotate(360deg);
+            }
+          }
+        `}
+      </style>
       <div className="hero-circle"></div>
       <div className="hero-shape1"></div>
+      {/* Decorative Background SVG - Left Side */}
+      <img
+        src={process.env.PUBLIC_URL + "/assets/img/anvil/bg.svg"}
+        alt=""
+        style={{
+          position: "absolute",
+          left: "1%",
+          top: "30%",
+          transform: "translateY(-50%)",
+          width: "180px",
+          height: "auto",
+          opacity: "0.85",
+          zIndex: 1,
+          pointerEvents: "none",
+          animation: "rotate 25s linear infinite", // Infinite rotation
+          display: "none", // Hidden by default (mobile)
+        }}
+        className="hero-bg-decor d-none d-lg-block" // Show only on large screens
+      />
       <div className="hero-inner">
         <div className="container">
           <div className="hero-style1">
@@ -16,9 +48,9 @@ const Hero = () => {
               <span className="text">Welcome To Our Company</span>
             </span>
             <h1 className="hero-title">
-              <span className="title1">Clear Thinking</span>
+              <span className="title1">Forging IT</span>
               <span className="title2">
-                Makes <span>Bright Future!</span>
+                <span>Excellence</span>
               </span>
             </h1>
             <p className="hero-text">
@@ -57,7 +89,7 @@ const Hero = () => {
           <img
             src={process.env.PUBLIC_URL + "/assets/img/hero/Forging.png"}
             alt="Hero"
-            style={{ width: "530px", height: "auto" }}
+            style={{ width: "480px", height: "auto" }}
           />
         </div>
       </div>

@@ -4,20 +4,20 @@ const ProcessSecOne = ({ className = "" }) => {
   const processes = [
     {
       number: "01",
-      title: "Requirement Analysis & Consultation",
-      text: "We discuss your business needs, technical requirements, and project objectives to design the most suitable solution for your organization.",
+      title: "Analysis & Consultation",
+      text: "We discuss business needs, technical requirements, and objectives to design solutions.",
       icon: "assets/img/icon/process_card_1.svg",
     },
     {
       number: "02",
       title: "Solution Design & Validation",
-      text: "Our team prepares the system architecture, conducts proof-of-concept testing, and validates the proposed solution to ensure performance, security, and scalability.",
+      text: "Our team designs architecture, validates solutions, and ensures performance and scalability.",
       icon: "assets/img/icon/process_card_1.svg",
     },
     {
       number: "03",
       title: "Deployment & Support",
-      text: "We implement, configure, and integrate the solution into your environment, followed by training, maintenance, and ongoing technical support.",
+      text: "We implement, configure, integrate solutions, provide training, maintenance, and support.",
       icon: "assets/img/icon/process_card_1.svg",
     },
   ];
