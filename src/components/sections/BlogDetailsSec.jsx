@@ -4,7 +4,7 @@ import { useSwiper } from "../hooks/useSwiper";
 import FsLightbox from "fslightbox-react";
 import BlogSidebar from "./BlogSidebar";
 import BlogComment from "./BlogComment";
-import BlogAuthor from "./BlogAuthor";
+// import BlogAuthor from "./BlogAuthor";
 
 const BlogDetailsSec = ({ post }) => {
   const swiperRef = useSwiper();
@@ -135,15 +135,16 @@ const BlogDetailsSec = ({ post }) => {
                     Quickly build covalent data after turnkey content.
                     Distinctively reconceptualize customized growth strategies
                     via prospective potentialities. Professionally pursue
-                    cutting-edge web-readiness vis-a-vis just in time
+                    cutting-edge web-readiness vis-a-vis just-in-time
                     infrastructures. Conveniently target client-based systems
                     with turnkey sources.
                   </p>
                   <p className="mb-n2">
                     Collaboratively syndicate focused opportunities for
                     interactive deliverables. Assertively initiate client-based
-                    infomediaries through collaborative mindshare create
-                    bleeding-edge meta-services
+                    infomediaries through collaborative mindshare and create
+                    bleeding-edge meta-services that drive innovation, security,
+                    and operational excellence.
                   </p>
                   <div className="share-links clearfix ">
                     <div className="row justify-content-between">
@@ -183,7 +184,7 @@ const BlogDetailsSec = ({ post }) => {
                   </div>
                 </div>
               </div>
-              <BlogAuthor />
+              {/* <BlogAuthor /> */}
               <BlogComment />
             </div>
             <div className="col-xxl-4 col-lg-5">

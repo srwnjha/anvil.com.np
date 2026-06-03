@@ -4843,7 +4843,7 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
   object-fit: cover;
 }
 .hero-title {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 500;
   line-height: 1.167;
   margin-bottom: 31px;
@@ -4934,8 +4934,8 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
   position: absolute;
   content: "";
   top: -20px;
-  width: 550px;
-  height: 550px;
+  width: 350px;
+  height: 430px;
   border: 2px solid var(--white-color);
   border-radius: 62% 47% 82% 35%/45% 45% 80% 66%;
   will-change: border-radius, transform, opacity;

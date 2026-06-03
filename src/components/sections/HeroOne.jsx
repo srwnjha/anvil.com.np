@@ -45,15 +45,26 @@ const Hero = () => {
         <div className="container">
           <div className="hero-style1">
             <span className="sub-title">
-              <span className="text">Welcome To Our Company</span>
+              <span className="text">
+                Welcome To{" "}
+                <span className="fw-bold text-primary">
+                  Anvil Technologies Pvt. Ltd.
+                </span>
+              </span>
             </span>
             <h1 className="hero-title">
-              <span className="title1">Forging IT</span>
-              <span className="title2">
-                <span>Excellence</span>
+              <span className="title1">
+                #ForgingIT<span>Excellence</span>
               </span>
+              {/* <span className="title2">
+                <span>#ForgingITExcellence</span>
+              </span> */}
             </h1>
             <p className="hero-text">
+              <span className="mb-3 d-inline-block fw-bold">
+                System Integrator &bull; IT Consultation &bull; Service Provider
+              </span>{" "}
+              <br />
               We build resilient, secure, and high-performance infrastructure
               for the modern enterprise. From complex system integration to
               ironclad security, we craft the digital foundations that drive
@@ -89,7 +100,7 @@ const Hero = () => {
           <img
             src={process.env.PUBLIC_URL + "/assets/img/hero/Forging.png"}
             alt="Hero"
-            style={{ width: "480px", height: "auto" }}
+            style={{ width: "380px", height: "auto" }}
           />
         </div>
       </div>

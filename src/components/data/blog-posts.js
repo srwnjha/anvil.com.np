@@ -1,7 +1,7 @@
 const blogPosts = [
   {
     id: 1,
-    slug: "top-5-it-solutions-small-businesses-startup",
+    slug: "the-future-of-secure-access",
     postType: "normal",
     title:
       "The Future of Secure Access: Why ZTNA is Replacing Traditional VPNs",
@@ -33,6 +33,37 @@ const blogPosts = [
 
   {
     id: 2,
+    slug: "choose-right-it-solution-provider",
+    postType: "video",
+    title: "How to Choose the Right IT Solution Provider",
+    excerpt:
+      "Learn the key factors to consider when selecting an IT solution provider for your business needs.",
+    author: "Tronix",
+    date: "26 Jul, 2025",
+    image: "assets/img/blog/Blog2c.jpg",
+    smallimage: "assets/img/blog/Blog2b.jpg",
+    detailImage: "assets/img/blog/Blog2a.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=U6fC4Ij608A",
+    content: {
+      intro:
+        "Choosing the right IT solution provider is a critical decision that can significantly impact your business operations, security, and growth potential. The ideal provider should understand your business needs, offer scalable solutions, and provide reliable support when you need it most.",
+      mainContent:
+        "Experience and expertise are paramount when selecting an IT provider. Look for companies with a proven track record in your industry and certifications that demonstrate their technical competence. A provider with diverse experience can offer insights and solutions tailored to your specific challenges. Anvil Technologies Pvt. Ltd., as an IT solutions and service provider, delivers a comprehensive range of technology services, helping organizations modernize infrastructure, strengthen cybersecurity, improve network performance, and accelerate digital transformation initiatives.",
+      quote: {
+        text: "The right technology partner can transform your business and unlock new opportunities for growth.",
+        author: "Sarah Johnson",
+        designation: "IT Consultant",
+      },
+      middleContent:
+        "Support and availability are crucial considerations. Your IT provider should offer 24/7 support, clear communication channels, and rapid response times for critical issues. Ask about their service level agreements (SLAs) and how they handle emergencies to ensure you'll never be left stranded during a crisis. A reliable service provider such as Anvil Technologies Pvt. Ltd. works closely with clients to provide proactive support, technical expertise, and tailored solutions that align with business objectives.",
+      conclusion:
+        "Cost transparency and value alignment are essential. While price is important, focus on the overall value and ROI the provider delivers. Look for flexible pricing models that scale with your business and ensure there are no hidden costs or surprise fees down the line. The right technology partner should act as an extension of your team, providing strategic guidance and long-term support rather than simply delivering products.",
+    },
+    tags: ["IT Provider", "Selection Guide", "Business IT"],
+    category: "IT Services",
+  },
+  {
+    id: 3,
     slug: "top-technology-solutions-business",
     postType: "gallery",
     title: "This post could discuss the top technology solutions",
@@ -60,37 +91,6 @@ const blogPosts = [
     },
     tags: ["Technology", "Business Solutions", "Innovation"],
     category: "Technology",
-  },
-  {
-    id: 3,
-    slug: "choose-right-it-solution-provider",
-    postType: "video",
-    title: "How to Choose the Right IT Solution Provider",
-    excerpt:
-      "Learn the key factors to consider when selecting an IT solution provider for your business needs.",
-    author: "Tronix",
-    date: "26 Jul, 2025",
-    image: "assets/img/blog/blog_1_3.jpg",
-    smallimage: "assets/img/blog/recent-post-1-3.jpg",
-    detailImage: "assets/img/blog/blog-s-1-3.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=U6fC4Ij608A",
-    content: {
-      intro:
-        "Choosing the right IT solution provider is a critical decision that can significantly impact your business operations, security, and growth potential. The ideal provider should understand your business needs, offer scalable solutions, and provide reliable support when you need it most.",
-      mainContent:
-        "Experience and expertise are paramount when selecting an IT provider. Look for companies with a proven track record in your industry and certifications that demonstrate their technical competence. A provider with diverse experience can offer insights and solutions tailored to your specific challenges.",
-      quote: {
-        text: "The right technology partner can transform your business and unlock new opportunities for growth.",
-        author: "Sarah Johnson",
-        designation: "IT Consultant",
-      },
-      middleContent:
-        "Support and availability are crucial considerations. Your IT provider should offer 24/7 support, clear communication channels, and rapid response times for critical issues. Ask about their service level agreements (SLAs) and how they handle emergencies to ensure you'll never be left stranded during a crisis.",
-      conclusion:
-        "Cost transparency and value alignment are essential. While price is important, focus on the overall value and ROI the provider delivers. Look for flexible pricing models that scale with your business and ensure there are no hidden costs or surprise fees down the line.",
-    },
-    tags: ["IT Provider", "Selection Guide", "Business IT"],
-    category: "IT Services",
   },
   {
     id: 4,
