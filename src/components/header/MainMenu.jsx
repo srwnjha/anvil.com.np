@@ -17,16 +17,16 @@ const MainMenu = () => {
         <Link to="/about">About Us</Link>
       </li>
 
-      <li className="menu-item-has-children">
+      <li>
         <Link to="/service">Service</Link>
-        <ul className="sub-menu">
+        {/* <ul className="sub-menu">
           <li>
             <Link to="/service">Service</Link>
           </li>
           <li>
             <Link to="/service-details">Service Details</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
 
       <li className="menu-item-has-children">

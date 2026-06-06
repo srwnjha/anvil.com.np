@@ -56,7 +56,7 @@ const Header = () => {
                           process.env.PUBLIC_URL +
                           "/assets/img/anvil/anvilfooter.png"
                         }
-                        alt="Tronix"
+                        alt="Anvil"
                         style={{
                           width: "190px",
                           height: "auto",

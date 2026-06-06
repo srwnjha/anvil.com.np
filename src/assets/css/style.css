@@ -7240,7 +7240,7 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
     font-size: 16px;
   }
 }
-.service-card {
+/* .service-card {
   background-color: var(--white-color);
   position: relative;
   z-index: 2;
@@ -7248,7 +7248,23 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
   border: 1px solid var(--ot-border-color);
   border-radius: 10px;
   transition: 0.4s ease-in-out;
+} */
+
+.service-card {
+  background-color: var(--white-color);
+  position: relative;
+  z-index: 2;
+  padding: 40px 30px;
+  border: 1px solid var(--ot-border-color);
+  border-radius: 10px;
+  transition: 0.4s ease-in-out;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .service-card .box-icon {
   width: 75px;
   height: 75px;

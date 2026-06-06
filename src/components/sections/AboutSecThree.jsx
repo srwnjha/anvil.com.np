@@ -8,19 +8,21 @@ const AboutSecThree = ({ className = "" }) => {
   });
   return (
     <div
-      className={`bg-left-full ${className}`}
+      className={`bg-left-full ot-hero-wrapper hero-1 ${className}`}
       id="about-sec"
       // data-bg-src="assets/img/anvil/1bgabout.webp"
-      style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/anvil/1bgabout.webp)`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        position: "relative",
-        padding: "100px 0",
-      }}
+      // style={{
+      //   backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/anvil/1bgabout.webp)`,
+      //   backgroundSize: "cover",
+      //   backgroundPosition: "center",
+      //   position: "relative",
+      //   padding: "100px 0",
+      // }}
     >
       <div className="container">
         <div className="row align-items-center">
+          {/* <div className="hero-circle"></div> */}
+          <div className="hero-shape1"></div>
           <div className="col-lg-6 mb-35 mb-lg-0">
             <div className="img-box4">
               <div className="img1">

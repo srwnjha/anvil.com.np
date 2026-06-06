@@ -10,7 +10,7 @@ const Breadcrumb = ({ className = "", title = "", subtitle = "" }) => {
         maxWidth: "1920px",
         height: "752px",
         backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg/aboutusbg.webp)`,
-        backgroundSize: "contain",
+        backgroundSize: "cover",
         backgroundPosition: "top",
         backgroundRepeat: "no-repeat",
       }}
