@@ -6655,7 +6655,7 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
   border: 1px solid var(--ot-border-color);
   border-radius: 20px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   overflow: hidden;
 }
 @media (max-width: 767px) {
@@ -6686,10 +6686,10 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
   }
 }
 .brand-grid:nth-child(4n) {
-  border-right: none;
+  /* border-right: none; */
 }
 .brand-grid:nth-last-child(-n + 4) {
-  border-bottom: none;
+  /* border-bottom: none; */
 }
 @media (max-width: 767px) {
   .brand-grid {

@@ -39,7 +39,11 @@ const BrandOne = ({ className = "" }) => {
         <div className="brand-grid-wrap">
           {brandLogos.map((logo, index) => (
             <div className="brand-grid" key={index}>
-              <img src={logo} alt="Brand Logo" />
+              <img
+                src={logo}
+                alt="Brand Logo"
+                style={{ width: "100px", height: "auto" }}
+              />
             </div>
           ))}
         </div>
