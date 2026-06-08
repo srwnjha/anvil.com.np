@@ -4,17 +4,19 @@ import { Link } from "react-router-dom";
 const Breadcrumb = ({ className = "", title = "", subtitle = "" }) => {
   return (
     <div
-      className={`breadcumb-wrapper ${className}`}
-      style={{
-        width: "100%",
-        maxWidth: "1920px",
-        height: "752px",
-        backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg/aboutusbg.webp)`,
-        backgroundSize: "cover",
-        backgroundPosition: "top",
-        backgroundRepeat: "no-repeat",
-      }}
+      className={`breadcumb-wrapper ot-hero-wrapper hero-1 ${className}`}
+      // style={{
+      //   width: "100%",
+      //   maxWidth: "1920px",
+      //   height: "752px",
+      //   backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg/aboutusbg.webp)`,
+      //   backgroundSize: "cover",
+      //   backgroundPosition: "top",
+      //   backgroundRepeat: "no-repeat",
+      // }}
     >
+      <div className="hero-circle"></div>
+      <div className="hero-shape1"></div>
       <div className="container">
         <div className="breadcumb-content">
           <h1 className="breadcumb-title">{title}</h1>

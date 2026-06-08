@@ -10,7 +10,7 @@ const ServiceList = ({ className = "", limit = null }) => {
       img: "assets/img/service/service_box_1.png",
     },
     {
-      title: "Data Center Modernization & Cloud Enablement",
+      title: "Cloud & Data Center Transformation",
       text: "They may offer a range of services, from project-based work to ongoing support and maintenance.",
       icon: "assets/img/icon/service_box_2.svg",
       img: "assets/img/service/service_box_1.png",

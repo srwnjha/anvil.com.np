@@ -1481,12 +1481,12 @@ textarea.is-invalid {
   transition: all 300ms linear;
 }
 .scroll-top:after {
-  content: "";
+  content: "🔝";
   font-family: var(--icon-font);
   position: absolute;
   text-align: center;
   line-height: 50px;
-  font-size: 20px;
+  font-size: 28px;
   color: var(--theme-color);
   left: 0;
   top: 0;

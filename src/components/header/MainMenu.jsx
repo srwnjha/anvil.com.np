@@ -29,7 +29,7 @@ const MainMenu = () => {
         </ul> */}
       </li>
 
-      <li className="menu-item-has-children">
+      {/* <li className="menu-item-has-children">
         <Link to="#">Pages</Link>
         <ul className="sub-menu">
           <li>
@@ -51,7 +51,7 @@ const MainMenu = () => {
             <Link to="/error404">Error 404 Page</Link>
           </li>
         </ul>
-      </li>
+      </li> */}
 
       <li className="menu-item-has-children">
         <Link to="/blog">Blog</Link>

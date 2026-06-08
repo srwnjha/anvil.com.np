@@ -1,10 +1,10 @@
 const services = [
   {
     id: 1,
-    title: "Infrastructure Design & Optimization",
+    title: "Infrastructure Excellence",
     slug: "technology-solution",
     icon: "/assets/img/anvil/services/1.png",
-    text: "Risus turpis id mauris tellus ultricies cras nulla.",
+    text: "Building resilient, scalable infrastructure that accelerates business success.",
     detailsImage: "/assets/img/service/service_details.jpg",
     description:
       "Holisticly benchmark functional products before excellent methods of empowerment. Seamlessly visualize innovative web-readiness whereas extensive initiatives. Completely unleash frictionless data via end-to-end services. Continually unleash virtual e-tailers through magnetic core competencies. Interactively engage distributed alignments via focused alignments. Dynamically fabricate excellent innovation for go forward technology. Intrinsicly impact empowered scenarios after cost effective outsourcing. Synergistically productivate pandemic e-business rather than state of the art e-tailers. Continually expedite customized information with go forward potentialities.",
@@ -47,10 +47,10 @@ const services = [
   },
   {
     id: 2,
-    title: "Data Center Modernization & Cloud Enablement",
+    title: "Cloud & Data Center Transformation",
     slug: "it-management-service",
     icon: "/assets/img/anvil/services/2.png",
-    text: "Developing a comprehense IT strategy that aligns.",
+    text: "Transforming IT environments for agility, efficiency, and innovation.",
     detailsImage: "/assets/img/service/service_details.jpg",
     description:
       "Developing a comprehensive IT strategy that aligns with your business goals. We help organizations optimize their technology infrastructure and improve operational efficiency. Our team of experts works closely with you to understand your unique challenges and develop tailored solutions that drive growth and innovation. From network design and implementation to cloud migration and cybersecurity, we provide end-to-end IT services that ensure your business stays competitive in today's digital landscape.",
@@ -93,10 +93,10 @@ const services = [
   },
   {
     id: 3,
-    title: "Enterprise Networking & Security",
+    title: "Secure Enterprise Connectivity",
     slug: "website-mobile-app-design",
     icon: "/assets/img/anvil/services/3.png",
-    text: "Website and mobile apps design are critical.",
+    text: "Enabling secure, seamless connectivity across the modern enterprise.",
     detailsImage: "/assets/img/service/service_details.jpg",
     description:
       "Website and mobile apps design are critical for modern businesses. We create stunning, user-friendly designs that drive engagement and conversions. Our design process begins with thorough research and user analysis to understand your target audience and business objectives. We then craft intuitive interfaces that provide seamless experiences across all devices and platforms. From concept to launch, we ensure every design element serves a purpose and contributes to your brand's success in the digital marketplace.",
@@ -142,7 +142,7 @@ const services = [
     title: "Managed IT & Support Services",
     slug: "data-tracking-security",
     icon: "/assets/img/anvil/services/4.png",
-    text: "Encryption is a method of converting sensitive.",
+    text: "Optimizing IT performance through proactive management and support.",
     detailsImage: "/assets/img/service/service_details.jpg",
     description:
       "Encryption is a method of converting sensitive data into a secure format. We provide comprehensive data security solutions to protect your business information from unauthorized access and cyber threats. Our security experts implement multi-layered protection strategies including advanced encryption protocols, real-time threat monitoring, and automated incident response systems. We help you maintain compliance with industry regulations while ensuring your critical business data remains secure and accessible only to authorized personnel.",

@@ -13,10 +13,11 @@ const ServiceSecThree = ({ className = "" }) => {
                 <span className="sub-title">
                   <span className="text">Our Featured Services</span>
                 </span>
-                <h2 className="sec-title">Our Best Service</h2>
+                <h2 className="sec-title">Professional Services</h2>
                 <p className="sec-text">
-                  IT service providers work closely with clients to understand
-                  their unique needs & develop customized technology solutions.
+                  Expert consulting, implementation, integration, and support
+                  services to optimize your IT infrastructure, enhance
+                  operational efficiency, and accelerate business growth.
                 </p>
               </div>
               <Link to="/service" className="link-btn style-black">

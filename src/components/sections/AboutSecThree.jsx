@@ -79,7 +79,7 @@ const AboutSecThree = ({ className = "" }) => {
                     <img src="assets/img/icon/about_feature_1.svg" alt="icon" />
                   </div>
                   <h3 className="box-title">
-                    Provide Skills <br /> Services
+                    Provide Skilled <br /> Services
                   </h3>
                 </div>
                 <div className="about-feature">
@@ -87,7 +87,7 @@ const AboutSecThree = ({ className = "" }) => {
                     <img src="assets/img/icon/about_feature_2.svg" alt="icon" />
                   </div>
                   <h3 className="box-title">
-                    Urgent Support <br /> For Clients
+                    Dedicated <br /> 24×7 Support
                   </h3>
                 </div>
               </div>
