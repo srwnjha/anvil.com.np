@@ -20,14 +20,14 @@ const AboutFour = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="col-xxl-6 col-lg-7 text-center text-lg-start">
+          <div className="col-xxl-7 col-lg-7 text-lg-start">
             <div className="ps-xl-5">
               <div className="title-area mb-37">
-                <span className="sub-title">
+                <span className="sub-title text-center text-lg-start">
                   <span className="text">More About Us</span>
                 </span>
-                <h2 className="sec-title">
-                  Introducing Anvil Technologies Pvt. Ltd.
+                <h2 className="sec-title text-center text-lg-start">
+                  The Anvil Overview
                 </h2>
                 <p className="sec-text">
                   The name <b>"ANVIL"</b> represents strength, resilience, and
@@ -86,7 +86,7 @@ const AboutFour = ({ className = "" }) => {
               </div> */}
             </div>
           </div>
-          <p>
+          <p className="mt-0 mt-lg-4">
             At <b>Anvil Technologies</b> , we go beyond traditional product
             delivery by focusing on long-term partnerships and value-driven
             outcomes. Our team of experienced professionals provides

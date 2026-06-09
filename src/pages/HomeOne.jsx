@@ -13,6 +13,7 @@ import CtaSecOne from "../components/sections/CtaSecOne";
 // import TestiSecThree from "../components/sections/TestiSecThree";
 // import CaseSecOne from "../components/sections/CaseSecOne";
 import BlogSecTwo from "../components/sections/BlogSecTwo";
+import Clients from "../components/sections/Clients";
 // import SubscribeSecOne from "../components/sections/SubscribeSecOne";
 // import ServiceSecOne from "../components/sections/ServiceSecOne";
 // import BrandOne from "../components/sections/BrandOne";
@@ -33,6 +34,7 @@ const HomeOne = () => {
       <Header />
       <div className="home-page">
         <Hero />
+        <Clients />
         <AboutSecThree className="space" />
         <ProcessSecOne className="space" />
         <ServiceSecThree className="space" />
