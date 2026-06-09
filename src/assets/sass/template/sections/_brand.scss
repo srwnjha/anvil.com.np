@@ -67,3 +67,69 @@
   justify-content: center;
   align-items: center;
 }
+
+.marquee-wrapper {
+  padding: 20px 0;
+}
+
+.marquee-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  animation: marquee 35s linear infinite;
+  width: max-content;
+}
+
+.marquee-item {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.marquee-item img {
+  max-height: 40px;
+  width: auto;
+  filter: grayscale(0%);
+  transition: all 0.3s ease;
+  opacity: 0.9;
+}
+
+.marquee-item:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* Fade Effects */
+.marquee-fade-left,
+.marquee-fade-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.marquee-fade-left {
+  left: 0;
+  background: linear-gradient(to right, #fff, transparent);
+}
+
+.marquee-fade-right {
+  right: 0;
+  background: linear-gradient(to left, #fff, transparent);
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause on hover */
+.marquee-wrapper:hover .marquee-content {
+  animation-play-state: paused;
+}
