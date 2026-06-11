@@ -34,7 +34,7 @@ const WhySecOne = ({ className = "" }) => {
           <div className="col-xl-7 col-lg-6">
             <div className="text-center mt-40 mt-lg-5">
               <img
-                src="assets/img/anvil/Services.png"
+                src="assets/img/anvil/aboutservices.png"
                 alt="vector"
                 style={{
                   width: "420px", // You can adjust size
