@@ -4916,7 +4916,7 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
 .hero-1 .hero-img {
   position: absolute;
   top: 250px;
-  right: 13%;
+  right: 8%;
   z-index: 2;
 }
 @media (max-width: 1399px) {
@@ -4927,7 +4927,7 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
 .hero-1 .hero-img img {
   border-radius: 62% 47% 82% 35%/45% 45% 80% 66%;
   will-change: border-radius, transform, opacity;
-  animation: heroMorph 5s linear infinite;
+  animation: heroMorph 7s linear infinite;
 }
 .hero-1 .hero-img:before,
 .hero-1 .hero-img:after {

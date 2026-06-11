@@ -55,16 +55,36 @@ const AboutSecThree = ({ className = "" }) => {
               </div>
             </div>
           </div>
+          <img
+            src={process.env.PUBLIC_URL + "/assets/img/bg/designs/dna.png"}
+            alt=""
+            style={{
+              position: "absolute",
+              left: "68%",
+              top: "180%",
+              transform: "translateY(-50%)",
+              filter: "brightness(1)", // brighter
+              width: "auto",
+              height: "850px",
+              opacity: "0.15",
+              zIndex: 1,
+              pointerEvents: "none",
+              display: "none",
+            }}
+            className="hero-bg-decor d-none d-lg-block" // Show only on large screens
+          />
           <div className="col-lg-6 text-center text-lg-start">
             <div className="ps-xxl-5 ms-xl-4 me-xxl-4">
               <div className="title-area mb-37">
                 <span className="sub-title">
                   <span className="text">More About Our Company</span>
                 </span>
+
                 <h2 className="sec-title">
                   We Deliver Reliable IT Solutions & Technology Services for
                   Businesses of All Sizes
                 </h2>
+
                 <p className="sec-text ">
                   As a trusted System Integrator and Service Provider, we help
                   organizations modernize their IT infrastructure, strengthen
@@ -73,6 +93,7 @@ const AboutSecThree = ({ className = "" }) => {
                   ensuring performance, reliability, and long-term success.
                 </p>
               </div>
+
               <div className="about-feature-wrap">
                 <div className="about-feature">
                   <div className="box-icon">

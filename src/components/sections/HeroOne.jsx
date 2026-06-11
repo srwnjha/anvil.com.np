@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="hero-circle"></div>
       <div className="hero-shape1"></div>
       {/* Decorative Background SVG - Left Side */}
-      <img
+      {/* <img
         src={process.env.PUBLIC_URL + "/assets/img/anvil/bg.svg"}
         alt=""
         style={{
@@ -38,6 +38,24 @@ const Hero = () => {
           pointerEvents: "none",
           animation: "rotate 25s linear infinite", // Infinite rotation
           display: "none", // Hidden by default (mobile)
+        }}
+        className="hero-bg-decor d-none d-lg-block" // Show only on large screens
+      /> */}
+      <img
+        src={process.env.PUBLIC_URL + "/assets/img/bg/designs/herobg.png"}
+        alt=""
+        style={{
+          position: "absolute",
+          left: "40%",
+          top: "60%",
+          transform: "translateY(-50%)",
+          filter: "brightness(1.5)", // brighter
+          width: "700px",
+          height: "auto",
+          opacity: "1",
+          zIndex: 1,
+          pointerEvents: "none",
+          display: "none",
         }}
         className="hero-bg-decor d-none d-lg-block" // Show only on large screens
       />

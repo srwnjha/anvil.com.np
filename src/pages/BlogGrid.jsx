@@ -11,7 +11,7 @@ const BlogGrid = () => {
   return (
     <>
       <Header />
-      <Breadcrumb title="Blogs" subtitle="Blogs" />
+      <Breadcrumb title="Article" subtitle="Article" />
       <section className="space" id="blog-sec">
         <div className="container">
           <div className="row gy-4 justify-content-center">

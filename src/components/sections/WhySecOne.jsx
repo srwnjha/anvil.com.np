@@ -5,7 +5,15 @@ const WhySecOne = ({ className = "" }) => {
   return (
     <div className={className}>
       <div className="shape-mockup spin" data-top="40%" data-left="4%">
-        <img src="assets/img/shape/star.png" alt="shape" />
+        <img
+          src="assets/img/anvil/bg.svg"
+          alt="shape"
+          style={{
+            width: "120px", // You can adjust size
+            height: "auto",
+            maxWidth: "100%",
+          }}
+        />
       </div>
       <div className="container">
         <div className="row align-items-center">
