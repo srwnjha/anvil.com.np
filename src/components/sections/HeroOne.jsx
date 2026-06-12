@@ -67,7 +67,7 @@ const Hero = () => {
         className="hero-bg-decor d-none d-lg-block" // Show only on large screens
       /> */}
       <img
-        src={process.env.PUBLIC_URL + "/assets/img/bg/designs/herobg.png"}
+        src={process.env.PUBLIC_URL + "/assets/img/bg/designs/herobgm.png"}
         alt=""
         style={desktopStyle}
         className="hero-bg-decor d-none d-lg-block" // Show only on large screens
