@@ -1,10 +1,35 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import FsLightbox from "fslightbox-react";
 
 const Hero = () => {
   const [toggler, setToggler] = useState(false);
+  const [isHighRes, setIsHighRes] = useState(false);
 
+  useEffect(() => {
+    // Check if the device pixel ratio is high (Retina/Mac/High-DPI)
+    // Most Macs are 2.0+, Windows 100% is 1.0
+    const checkRes = () => {
+      setIsHighRes(window.devicePixelRatio < 1.25);
+    };
+
+    checkRes();
+    window.addEventListener("resize", checkRes);
+    return () => window.removeEventListener("resize", checkRes);
+  }, []);
+  const desktopStyle = {
+    position: "absolute",
+    filter: "brightness(1.5)",
+    width: "700px",
+    height: "auto",
+    opacity: "1",
+    zIndex: 1,
+    pointerEvents: "none",
+    transform: "translateY(-50%)",
+    // Dynamic values based on resolution
+    left: isHighRes ? "50%" : "40%",
+    top: isHighRes ? "47%" : "60%",
+  };
   return (
     <div className="ot-hero-wrapper hero-1" id="hero">
       {/* Animation Keyframes */}
@@ -44,6 +69,12 @@ const Hero = () => {
       <img
         src={process.env.PUBLIC_URL + "/assets/img/bg/designs/herobg.png"}
         alt=""
+        style={desktopStyle}
+        className="hero-bg-decor d-none d-lg-block" // Show only on large screens
+      />
+      {/* <img
+        src={process.env.PUBLIC_URL + "/assets/img/bg/designs/herobg.png"}
+        alt=""
         style={{
           position: "absolute",
           left: "40%",
@@ -58,7 +89,7 @@ const Hero = () => {
           display: "none",
         }}
         className="hero-bg-decor d-none d-lg-block" // Show only on large screens
-      />
+      /> */}
       <div className="hero-inner">
         <div className="container">
           <div className="hero-style1">
