@@ -1,35 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import FsLightbox from "fslightbox-react";
 
 const Hero = () => {
   const [toggler, setToggler] = useState(false);
-  const [isHighRes, setIsHighRes] = useState(false);
-
-  useEffect(() => {
-    // Check if the device pixel ratio is high (Retina/Mac/High-DPI)
-    // Most Macs are 2.0+, Windows 100% is 1.0
-    const checkRes = () => {
-      setIsHighRes(window.devicePixelRatio < 1.25);
-    };
-
-    checkRes();
-    window.addEventListener("resize", checkRes);
-    return () => window.removeEventListener("resize", checkRes);
-  }, []);
-  const desktopStyle = {
-    position: "absolute",
-    filter: "brightness(1.5)",
-    width: "700px",
-    height: "auto",
-    opacity: "1",
-    zIndex: 1,
-    pointerEvents: "none",
-    transform: "translateY(-50%)",
-    // Dynamic values based on resolution
-    left: isHighRes ? "50%" : "40%",
-    top: isHighRes ? "47%" : "60%",
-  };
   return (
     <div className="ot-hero-wrapper hero-1" id="hero">
       {/* Animation Keyframes */}
@@ -66,14 +40,8 @@ const Hero = () => {
         }}
         className="hero-bg-decor d-none d-lg-block" // Show only on large screens
       /> */}
-      <img
-        src={process.env.PUBLIC_URL + "/assets/img/bg/designs/herobgm.png"}
-        alt=""
-        style={desktopStyle}
-        className="hero-bg-decor d-none d-lg-block" // Show only on large screens
-      />
       {/* <img
-        src={process.env.PUBLIC_URL + "/assets/img/bg/designs/herobg.png"}
+        src={process.env.PUBLIC_URL + "/assets/img/bg/designs/herobgm.png"}
         alt=""
         style={{
           position: "absolute",
@@ -144,6 +112,22 @@ const Hero = () => {
               />
             </div>
           </div>
+        </div>
+
+        <div className="">
+          <img
+            src={process.env.PUBLIC_URL + "/assets/img/bg/designs/herobgm.png"}
+            alt="Hero"
+            style={{
+              width: "700px",
+              height: "auto",
+              position: "absolute",
+              top: "100px",
+              right: "13%",
+              filter: "brightness(1.5)",
+            }}
+            className="hero-bg-decor d-none d-lg-block" // Show only on large screens
+          />
         </div>
         <div className="hero-img">
           <img
