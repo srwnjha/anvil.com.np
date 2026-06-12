@@ -1,41 +1,41 @@
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
 const AboutSecThree = ({ className = "" }) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.3,
   });
-  const [isHighRes, setIsHighRes] = useState(false);
+  // const [isHighRes, setIsHighRes] = useState(false);
 
-  useEffect(() => {
-    // Check if the device pixel ratio is high (Retina/Mac/High-DPI)
-    // Most Macs are 2.0+, Windows 100% is 1.0
-    const checkRes = () => {
-      setIsHighRes(window.devicePixelRatio < 1.25);
-    };
+  // useEffect(() => {
+  //   // Check if the device pixel ratio is high (Retina/Mac/High-DPI)
+  //   // Most Macs are 2.0+, Windows 100% is 1.0
+  //   const checkRes = () => {
+  //     setIsHighRes(window.devicePixelRatio < 1.25);
+  //   };
 
-    checkRes();
-    window.addEventListener("resize", checkRes);
-    return () => window.removeEventListener("resize", checkRes);
-  }, []);
-  const desktopStyle = {
-    position: "absolute",
-    left: isHighRes ? "68%" : "68%",
-    top: isHighRes ? "144%" : "180%",
-    // left: "68%",
-    // top: "180%",
-    transform: "translateY(-50%)",
-    filter: "brightness(1)", // brighter
-    width: "auto",
-    // height: "850px",
-    height: isHighRes ? "850px" : "850px",
-    opacity: "0.15",
-    zIndex: 1,
-    pointerEvents: "none",
-    display: "none",
-  };
+  //   checkRes();
+  //   window.addEventListener("resize", checkRes);
+  //   return () => window.removeEventListener("resize", checkRes);
+  // }, []);
+  // const desktopStyle = {
+  //   position: "absolute",
+  //   left: isHighRes ? "68%" : "68%",
+  //   top: isHighRes ? "144%" : "180%",
+  //   // left: "68%",
+  //   // top: "180%",
+  //   transform: "translateY(-50%)",
+  //   filter: "brightness(1)", // brighter
+  //   width: "auto",
+  //   // height: "850px",
+  //   height: isHighRes ? "850px" : "850px",
+  //   opacity: "0.15",
+  //   zIndex: 1,
+  //   pointerEvents: "none",
+  //   display: "none",
+  // };
   return (
     <div
       className={`bg-left-full ot-hero-wrapper hero-1 ${className}`}
@@ -50,6 +50,22 @@ const AboutSecThree = ({ className = "" }) => {
       // }}
     >
       <div className="container">
+        <div className="">
+          <img
+            src={process.env.PUBLIC_URL + "/assets/img/bg/designs/dna.png"}
+            alt="Hero"
+            style={{
+              width: "850px",
+              height: "auto",
+              position: "absolute",
+              top: "840px",
+              right: "-20%",
+              filter: "brightness(1.5)",
+              opacity: "0.15",
+            }}
+            className="hero-bg-decor d-none d-lg-block" // Show only on large screens
+          />
+        </div>
         <div className="row align-items-center">
           {/* <div className="hero-circle"></div> */}
           <div className="hero-shape1"></div>
@@ -85,12 +101,12 @@ const AboutSecThree = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <img
+          {/* <img
             src={process.env.PUBLIC_URL + "/assets/img/bg/designs/dna.png"}
             alt=""
             style={desktopStyle}
             className="hero-bg-decor d-none d-lg-block" // Show only on large screens
-          />
+          /> */}
           <div className="col-lg-6 text-center text-lg-start">
             <div className="ps-xxl-5 ms-xl-4 me-xxl-4">
               <div className="title-area mb-37">
