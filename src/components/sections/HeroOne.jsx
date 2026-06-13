@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import FsLightbox from "fslightbox-react";
+import FeatureBar from "./FeatureBar";
 
 const Hero = () => {
   const [toggler, setToggler] = useState(false);
@@ -137,6 +138,7 @@ const Hero = () => {
           />
         </div>
       </div>
+      <FeatureBar />
     </div>
   );
 };
