@@ -412,3 +412,17 @@
   align-self: center;
   flex-shrink: 0;
 }
+/* Responsive */
+@media (max-width: 992px) {
+  .feature-bar {
+    margin: 20px auto 0 auto; /* Centers + overlaps hero */
+  }
+
+  .feature-row {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .feature-divider {
+    display: none;
+  }
+}
