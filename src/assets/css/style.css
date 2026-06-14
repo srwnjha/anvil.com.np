@@ -1025,7 +1025,7 @@ textarea.is-invalid {
   padding-left: 18px;
 }
 .ot-mobile-menu ul li a:before {
-  content: "";
+  content: ">";
   font-family: var(--icon-font);
   position: absolute;
   left: 0;
@@ -4048,7 +4048,7 @@ a.text-theme:hover,
   position: relative;
 }
 .breadcumb-menu li:after {
-  content: "";
+  content: ">";
   position: relative;
   margin-left: 7px;
   font-weight: 500;

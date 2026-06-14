@@ -21,6 +21,25 @@ const AboutFour = ({ className = "" }) => {
             </div>
           </div>
           <div className="col-xxl-7 col-lg-7 text-lg-start">
+            <div className="">
+              <img
+                src={
+                  process.env.PUBLIC_URL +
+                  "/assets/img/bg/designs/anvilabout.png"
+                }
+                alt="Hero"
+                style={{
+                  width: "850px",
+                  height: "auto",
+                  position: "absolute",
+                  top: "80px",
+                  right: "-5%",
+                  filter: "brightness(1.5)",
+                  opacity: "0.15",
+                }}
+                className="hero-bg-decor d-none d-lg-block" // Show only on large screens
+              />
+            </div>
             <div className="ps-xl-5">
               <div className="title-area mb-37">
                 <span className="sub-title text-center text-lg-start">
