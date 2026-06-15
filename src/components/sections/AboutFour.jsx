@@ -35,7 +35,7 @@ const AboutFour = ({ className = "" }) => {
                   top: "80px",
                   right: "-5%",
                   filter: "brightness(1.5)",
-                  opacity: "0.15",
+                  opacity: "0.05",
                 }}
                 className="hero-bg-decor d-none d-lg-block" // Show only on large screens
               />
