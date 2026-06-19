@@ -13,7 +13,7 @@ const Header = () => {
           <div className="container">
             <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
               <div className="col-auto d-none d-lg-block">
-                <p className="header-notice">Mon-Fri: 8:00 AM - 6:30 PM</p>
+                {/* <p className="header-notice">Mon-Fri: 8:00 AM - 6:30 PM</p> */}
               </div>
               <div className="col-auto">
                 <div className="header-links2">

@@ -116,12 +116,12 @@ const WhySecThree = ({ className = "" }) => {
                   <span className="text">Why Work With Us</span>
                 </span>
                 <h2 className="sec-title text-white">
-                  World's No.1 Technology Solution Provider.
+                  Nepal's Leading Service Provider
                 </h2>
                 <p className="sec-text text-white">
-                  The goal of IT services is to provide efficient and effective
-                  technology solutions that help businesses achieve their
-                  objectives.
+                  We deliver secure, scalable, and results-driven technology
+                  solutions that help organizations transform, grow, and succeed
+                  in today’s digital landscape.
                 </p>
               </div>
 
