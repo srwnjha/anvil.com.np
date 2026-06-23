@@ -144,7 +144,7 @@ const FeatureBar = () => {
   return (
     <div className="feature-bar">
       <div className="container">
-        <div className="feature-row d-flex align-items-start justify-content-between">
+        <div className="feature-row d-flex align-items-center justify-content-between">
           {features.map((feature, index) => (
             <React.Fragment key={index}>
               <div className="feature-item d-flex align-items-start gap-4">

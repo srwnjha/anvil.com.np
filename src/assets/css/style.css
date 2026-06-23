@@ -5204,15 +5204,12 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
   position: relative;
   width: 1000px;
   max-width: 95%;
-  margin: -70px auto 0 auto; /* Centers + overlaps hero */
+  margin: -120px auto 0 80px; /* Centers + overlaps hero */
   padding: 10px 0;
   background: white;
   border-radius: 16px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
   z-index: 10;
-}
-.feature-bar .feature-item {
-  margin-top: 9px;
 }
 .feature-bar h5 {
   font-size: 13px;
