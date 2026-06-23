@@ -5202,14 +5202,23 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
 
 .feature-bar {
   position: relative;
-  width: 1300px;
+  width: 1000px;
   max-width: 95%;
-  margin: -80px auto 0 auto; /* Centers + overlaps hero */
-  padding: 15px 0;
+  margin: -70px auto 0 auto; /* Centers + overlaps hero */
+  padding: 10px 0;
   background: white;
   border-radius: 16px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
   z-index: 10;
+}
+.feature-bar .feature-item {
+  margin-top: 9px;
+}
+.feature-bar h5 {
+  font-size: 13px;
+}
+.feature-bar p {
+  font-size: 10px;
 }
 
 .feature-row {
@@ -5230,7 +5239,7 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
 
 .feature-img {
   margin-left: 15px;
-  width: 45px;
+  width: 35px;
   height: 58px;
   object-fit: contain;
   border-radius: 8px;
