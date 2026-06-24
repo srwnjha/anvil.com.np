@@ -58,7 +58,7 @@ const AboutSecThree = ({ className = "" }) => {
               width: "850px",
               height: "auto",
               position: "absolute",
-              top: "870px",
+              top: "800px",
               right: "-20%",
               filter: "brightness(1.5)",
               opacity: "0.15",
