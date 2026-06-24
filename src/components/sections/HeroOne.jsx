@@ -113,7 +113,6 @@ const Hero = () => {
               />
             </div>
           </div>
-          <FeatureBar />
         </div>
 
         <div className="">
@@ -139,6 +138,7 @@ const Hero = () => {
           />
         </div>
       </div>
+      <FeatureBar />
     </div>
   );
 };

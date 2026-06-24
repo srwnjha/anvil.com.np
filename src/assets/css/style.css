@@ -5204,7 +5204,7 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
   position: relative;
   width: 840px;
   max-width: 95%;
-  margin: -120px auto 0 -10px; /* Centers + overlaps hero */
+  margin: -120px auto 0 150px; /* Centers + overlaps hero */
   padding: 1px 0;
   background: white;
   border-radius: 16px;
@@ -5254,9 +5254,9 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
 @media (max-width: 992px) {
   .feature-bar {
     margin: 20px auto 0 auto; /* Centers + overlaps hero */
-    padding: 10px 0;
     width: 350px;
-    margin-bottom: 20px;
+    padding: 10px 0;
+    margin-bottom: 10px;
   }
 
   .feature-row {
