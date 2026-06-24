@@ -5204,7 +5204,7 @@ ul.comment-list:has(> .ot-comment-item ~ .ot-comment-item):first-child
   position: relative;
   width: 840px;
   max-width: 95%;
-  margin: -120px auto 0 220px; /* Centers + overlaps hero */
+  margin: -120px auto 0 0px; /* Centers + overlaps hero */
   padding: 1px 0;
   background: white;
   border-radius: 16px;

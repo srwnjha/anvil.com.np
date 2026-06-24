@@ -138,7 +138,9 @@ const Hero = () => {
           />
         </div>
       </div>
-      <FeatureBar />
+      <div className="container">
+        <FeatureBar />
+      </div>
     </div>
   );
 };
