@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import services from '../data/services';
+import services from "../data/services";
 
 const ServiceCard = ({ className, limit }) => {
   const displayedServices = limit ? services.slice(0, limit) : services;
@@ -11,7 +11,15 @@ const ServiceCard = ({ className, limit }) => {
       {displayedServices.map((service) => {
         return (
           <div className={className} key={service.id}>
-            <div className="service-card">
+            <div
+              className="service-card"
+              style={{
+                backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/servicebg.png)`,
+                backgroundPosition: "center -10px",
+                backgroundSize: "70% auto",
+                backgroundRepeat: "no-repeat",
+              }}
+            >
               <div className="box-icon">
                 <img src={service.icon} alt="Icon" />
               </div>

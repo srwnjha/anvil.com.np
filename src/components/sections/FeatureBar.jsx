@@ -120,22 +120,22 @@ import React from "react";
 const FeatureBar = () => {
   const features = [
     {
-      image: "/assets/img/hero/a.jpg",
+      image: "/assets/img/hero/a1.png",
       title: "Secure Systems",
       desc: "Advanced security for a safer digital future.",
     },
     {
-      image: "/assets/img/hero/b.jpg",
+      image: "/assets/img/hero/b1.png",
       title: "Reliable Infrastructure",
       desc: "High-performance systems built for reliability.",
     },
     {
-      image: "/assets/img/hero/c.jpg",
+      image: "/assets/img/hero/c1.png",
       title: "Business Growth",
       desc: "Technology solutions that drive your growth.",
     },
     {
-      image: "/assets/img/hero/d.jpg",
+      image: "/assets/img/hero/d1.png",
       title: "24/7 Support",
       desc: "Always available to keep your business running.",
     },

@@ -13,8 +13,19 @@ const MainMenu = () => {
         </ul> */}
       </li>
 
-      <li>
-        <Link to="/about">About Us</Link>
+      <li className="menu-item-has-children">
+        <Link to="#">About Us</Link>
+        <ul className="sub-menu">
+          <li>
+            <Link to="/about">Who We Are</Link>
+          </li>
+          <li>
+            <Link to="/trusted-by-organization">Trusted By Organizations</Link>
+          </li>
+          <li>
+            <Link to="/technology-we-integrate">Technology We Integrate</Link>
+          </li>
+        </ul>
       </li>
 
       <li>

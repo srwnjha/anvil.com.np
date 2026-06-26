@@ -371,7 +371,7 @@
 }
 .feature-bar {
   position: relative;
-  width: 840px;
+  width: 930px;
   max-width: 95%;
   margin: -120px auto 0 0px; /* Centers + overlaps hero */
   padding: 1px 0;
@@ -381,10 +381,10 @@
   z-index: 10;
 }
 .feature-bar h5 {
-  font-size: 10px;
+  font-size: 12px;
 }
 .feature-bar p {
-  font-size: 9px;
+  font-size: 11px;
 }
 
 .feature-row {
@@ -404,8 +404,8 @@
 }
 
 .feature-img {
-  margin-left: 15px;
-  width: 25px;
+  margin-left: 10px;
+  width: 30px;
   height: 48px;
   object-fit: contain;
   border-radius: 8px;
