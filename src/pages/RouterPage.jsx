@@ -1,26 +1,27 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import HomeOne from './HomeOne'
-import HomeTwo from './HomeTwo'
-import HomeThree from './HomeThree'
-import About from './About'
-import Service from './Service'
-import ServiceDetails from './ServiceDetails'
-import Project from './Project'
-import ProjectDetails from './ProjectDetails'
-import Team from './Team'
-import TeamDetails from './TeamDetails'
-import Pricing from './Pricing'
-import BlogGrid from './BlogGrid'
-import Blog from './Blog'
-import BlogDetails from './BlogDetails'
-import Contact from './Contact'
-import Error404 from './Error404'
-
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomeOne from "./HomeOne";
+import HomeTwo from "./HomeTwo";
+import HomeThree from "./HomeThree";
+import About from "./About";
+import Service from "./Service";
+import ServiceDetails from "./ServiceDetails";
+import Project from "./Project";
+import ProjectDetails from "./ProjectDetails";
+import Team from "./Team";
+import TeamDetails from "./TeamDetails";
+import Pricing from "./Pricing";
+import BlogGrid from "./BlogGrid";
+import Blog from "./Blog";
+import BlogDetails from "./BlogDetails";
+import Contact from "./Contact";
+import Error404 from "./Error404";
+import Technology from "./Technology";
+import Trusted from "./Trusted";
 
 function RouterPage() {
   const rawPublicUrl = process.env.PUBLIC_URL;
-  const basename = rawPublicUrl && rawPublicUrl !== '.' ? rawPublicUrl : '/';
+  const basename = rawPublicUrl && rawPublicUrl !== "." ? rawPublicUrl : "/";
 
   return (
     <div>
@@ -31,6 +32,11 @@ function RouterPage() {
           <Route path="/home-two" element={<HomeTwo />}></Route>
           <Route path="/home-three" element={<HomeThree />}></Route>
           <Route path="/about" element={<About />}></Route>
+          <Route
+            path="/technology-we-integrate"
+            element={<Technology />}
+          ></Route>
+          <Route path="/trusted-by-organization" element={<Trusted />}></Route>
           <Route path="/service" element={<Service />}></Route>
           <Route path="/service-details" element={<ServiceDetails />}></Route>
           <Route path="/service/:slug" element={<ServiceDetails />}></Route>
@@ -49,7 +55,7 @@ function RouterPage() {
         </Routes>
       </Router>
     </div>
-  )
+  );
 }
 
-export default RouterPage
+export default RouterPage;
